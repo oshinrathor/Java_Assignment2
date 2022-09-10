@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class ASG2{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        double h,att;
+        double per;
+        System.out.println("Enter no. of classes held");
+        h=sc.nextDouble();
+        System.out.println("Enter no. of classes you attended");
+        att=sc.nextDouble();
+        per=(att/h)*100;
+        if(per<75)
+        System.out.println("Not allowed to sit in exams.");
+        else System.out.println("Allowed to sit in exams.");
+    }
+}
