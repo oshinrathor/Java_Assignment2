@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class ASG2{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int yr;
+        double sal,bonus;
+        System.out.println("Enter your year of service");
+        yr=sc.nextInt();
+        System.out.println("Enter your salary");
+        sal=sc.nextDouble();
+        if(yr>5)
+            bonus=sal+0.05*sal;
+            
+        else 
+        bonus=sal;
+        
+        System.out.println("Total bonus amt= "+bonus);
+    }
+}
