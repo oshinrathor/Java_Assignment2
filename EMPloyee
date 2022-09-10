@@ -1,0 +1,28 @@
+import java.util.Scanner;
+class ASG2
+{
+    public static void main(String[] args)
+    {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter Age: ");
+    int age = sc.nextInt();
+    System.out.println("Enter M for Male and F for Female: ");
+    char sex = sc.next().charAt(0);
+    System.out.println("Are you Married? Y/N: ");
+    char married = sc.next().charAt(0);
+    if(sex == 'F')
+    {
+        System.out.println("You will work only in Urban Areas");
+    }
+    else if (sex == 'M')
+    {
+        if(age>=20 && age<40){
+        System.out.println("You may work anywhere.");
+    }
+    else if(age>=40&&age<60){
+        System.out.println("You will work only in urban areas.");
+    }
+    else System.out.println("ERROR");
+    }
+    }
+}
