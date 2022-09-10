@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class ASG2{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        double q,sum,cost=0;
+        System.out.println("Enter quantity of items");
+        q=sc.nextDouble();
+        sum=q*100;
+        System.out.println("Total cost= "+sum);
+        if(sum<1000)
+            cost=sum;
+            
+        else 
+        cost=sum-(sum*0.1);
+        
+        System.out.println("Total cost= "+cost);
+    }
+}
+
