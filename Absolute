@@ -1,0 +1,12 @@
+import java.util.Scanner;
+import java.lang.Math;
+class ASG2{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int inp;
+        System.out.println("Enter input");
+        inp=sc.nextInt();
+        inp=Math.abs(inp);
+        System.out.println(inp);
+    }
+}
