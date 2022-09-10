@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class ASG2{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int a1,a2,a3;
+        System.out.println("Enter age1");
+        a1=sc.nextInt();
+        System.out.println("Enter age2");
+        a2=sc.nextInt();
+        System.out.println("Enter age3");
+        a3=sc.nextInt();
+        if(a1>a2 && a1>a3)System.out.println("person1"+" is oldest.");
+        else if(a2>a3) System.out.println("person2"+" is oldest.");
+        else System.out.println("person3"+" is oldest.");
+        if(a1<a2 && a1<a3)System.out.println("person1"+" is youngest.");
+        else if(a2<a3) System.out.println("person2"+" is youngest.");
+        else System.out.println("person3"+" is youngest.");
+    }
+}
