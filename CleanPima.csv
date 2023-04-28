@@ -1,4 +1,3 @@
-Column1
 """pregnancies"" ""glucose"" ""diastolic"" ""triceps"" ""insulin"" ""bmi"" ""age"" ""test"""
 """1"" 6 148 72 35 NA 33.6 50 ""positive"""
 """2"" 1 85 66 29 NA 26.6 31 ""negative"""
